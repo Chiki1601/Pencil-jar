@@ -1,0 +1,109 @@
+body {
+  background: #9fefe7;
+}
+.container {
+  position: relative;
+  margin: auto;
+  top: 60px;
+  height: 300px;
+  width: 300px;
+  background: none;  
+}
+.pencil-jar {
+  position: absolute;
+  top: 60px;
+  left: 20%;
+  height: 220px;
+  width: 150px;
+  background: linear-gradient(to right, #CCCCFF, #7373e5);
+  opacity: 0.3;
+  border-radius: 0px 0px 40px 40px;
+  border: 2px solid #7a7ac1;
+  border-top: none;
+  z-index: 7;
+}
+.top {
+  position: absolute;
+  height: 12px;
+  width: 146px;
+  background: linear-gradient(to right, #CCCCFF, #7373e5);
+  opacity: 0.3;
+  left: 20%;
+  top: 50px;
+  border-radius: 50%;
+  border: 2px solid #7a7ac1;
+  border-color: #7a7ac1 #7a7ac1 transparent transparent;
+  z-index: 2;
+}
+.top-copy {
+  position: absolute;
+  width: 157px;
+  height: 10px;
+  opacity: 0.3;
+  left: 19.5%;
+  top: 51px;
+  border-radius: 50%;
+  border: 2px solid #7a7ac1;
+  border-color: transparent transparent #7a7ac1 #7a7ac1;
+  z-index: 4;
+}
+
+.pencil-1 {
+  position: absolute;
+  height: 260px;
+  width: 15px;
+  left: 170px;
+  background: linear-gradient(to left, #ffdf00, #ffe84c);
+  -webkit-transform: rotate(21deg);
+  z-index: 2;
+}
+.pencil-2 {
+  position: absolute;
+  height: 260px;
+  width: 15px;
+  left: 100px;
+  top: 5px;
+  background: linear-gradient(to left, #ffdf00, #ffe84c);
+  -webkit-transform: rotate(-24deg);
+  z-index: 2;
+}
+.pencil-3 {
+  position: absolute;
+  height: 260px;
+  width: 15px;
+  left: 140px;
+  background: linear-gradient(to left, #ffdf00, #ffe84c);
+  -webkit-transform: rotate(20deg);
+  z-index: 2;
+}
+.metal {
+  position: absolute;
+  height: 10px;
+  width: 15px;
+  background: #4c4c4c;
+  top: -10px;
+}
+.eraser{
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: pink;
+  top: -25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.wood {
+  position: absolute;
+  height: 30px;
+  width: 15px;
+  background: #c3834c;
+  top: 260px;
+  -webkit-clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+  -webkit-transform: rotate(180deg);
+}
+.lead {
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background: #000;
+}
